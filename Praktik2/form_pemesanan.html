@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pesanan Pizza</title>
+</head>
+<body>
+
+    <h1>Black Goose Bistro | Pizza-on-Demand</h1>
+    <p>"Our 12" wood-fired pizzas are available for delivery. 
+        Build your <br>custom pizza and we'll deliver it within an hour.</p>
+    <br>
+    <p>Your Information</p>
+    <form action="http://blackgoosebistro.com/pizza.php" method="post">
+<table>
+    <tr>
+        <td>Name:</td>
+        <td> <input type="text" name="customername"></td>
+    </tr>
+    <tr>
+        <td>Address:</td>
+        <td> <textarea name="address" cols="30" rows="5"></textarea></td>
+    </tr>
+    <tr>
+        <td>Telephone Number:</td>
+        <td> <input type="number" name="telephone"></td>
+    </tr>
+    <tr>
+        <td>Email:</td>
+        <td> <input type="email" name="email"></td>
+    </tr>
+    <tr>
+        <td>Delivery instructions:</td>
+        <td><textarea name="instructions" cols="30" rows="5" maxlength="400"></textarea></td>
+    </tr>
+</table>
+        <br>
+        <p><b>Design Your Dream Pizza:</b><br>Pizza specs</p>
+        <br>
+        <label for="crust">Crust (Choose one):</label><br>
+        <input type="radio" name="crust" value="classic white">Classic white<br>
+        <input type="radio" name="crust" value="multigrain">Multigrain<br>
+        <input type="radio" name="crust" value="cheese-stuffid crust">Cheese-stuffid crust<br>
+        <input type="radio" name="crust" value="glutten-free">Glutten-free<br>
+
+        <label for="toppings">Toppings (Choose as many as you want):</label><br>
+        <input type="checkbox" name="toppings[]" value="red sauce">Red sauce<br>
+        <input type="checkbox" name="toppings[]" value="white sauce">White sauce<br>
+        <input type="checkbox" name="toppings[]" value="mozarella cheese">Mozarella cheese<br>
+        <input type="checkbox" name="toppings[]" value="pepproni">Pepperoni<br>
+        <input type="checkbox" name="toppings[]" value="mushrooms">Mushrooms<br>
+        <input type="checkbox" name="toppings[]" value="peppers">Peppers<br>
+        <input type="checkbox" name="toppings[]" value="anchovies">Anchovies<br>
+        
+        <br>
+
+        <label for="pizzas">How many pizzas</label>
+        <input type="number" name="pizzas" maxlength="6"><br>
+
+        <br>
+
+        <input type="submit" value="Bring me a pizza">
+        <input type="reset">
+    </form>
+
+    
+</body>
+</html>

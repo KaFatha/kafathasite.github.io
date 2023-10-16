@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan Barang</title>
+</head>
+<body style="font-family: 'Times New Roman', Times, serif; margin: 0; padding: 0;">
+
+    <div style="margin: 10px 20px; padding: 20px 40px;">
+        <table border="0" cellpadding="50" cellspacing="50" align="center" class="box1" style="background: red;">
+            <tr>
+                <td style="color: white;">Home</td>
+                <td style="color: white;">Generate Link</td>
+                <td style="color: white;">Transaction History</td>
+                <td style="color: white;">Policy</td>
+                <td style="color: white;">Logout</td>
+            </tr>
+        </table>
+    </div>
+    <div style="margin: 10px 20px; padding: 20px 40px;">
+        <table>
+            <tr>
+                <td>Title Here :</td>
+                <td><input type="text" name="nama"></td>
+            </tr>
+            <tr>
+                <td>Description :</td>
+                <td><textarea name="deskripsi" id="" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td>Account Number :</td>
+                <td><input type="number" name="nomor akun"></td>
+            </tr>
+            <tr>
+                <td><label for="dog-names">Bank :</label></td>
+                <td><select name="dog-names" id="dog-names">
+                  <option value="Bank Syariah">BSI</option>
+                  <option value="Bank Republik">BRI</option>
+                  <option value="Mandiri">Mandiri</option>
+                  <option value="Muamalat">Muamalat</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Account Holder :</td>
+                <td><input type="text" name="holder akun"></td>
+            </tr>
+            <tr>
+                <td>Transaction :</td>
+                <td><input type="number" name="transaksi"><br>
+                    *if the transaction is for 3 person, choose 3 form the drop-down list <br>
+                    <input type="checkbox" name="pilih" value="1">Send to Mobile Phone <br>
+                    <input type="checkbox" name="pilih" value="2">Send to Email
+                </td>
+            </tr>
+            <tr>
+                <td>Send to Mobile Phone :</td>
+                <td><input type="number" name="nomor telpon"></td>
+            </tr>
+            <tr>
+                <td>Send to Email :</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>    </td>
+            </tr>
+            <tr>
+                <td>    </td>
+                <td><button style="background-color: green; color: white;">Generate Nabr Link</button></td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>
