@@ -1,0 +1,40 @@
+#header{
+    background-color: burlywood;
+    padding-bottom: 20px;
+}
+#header h1{
+    color: blue;
+    text-align: center;
+}
+#header blockquote{
+    background-color: orange;
+    text-align: center;
+}
+body{
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gambar img{
+    width: 15%;
+}
+p span{
+    font-size: 50px;
+    color: blue;
+}
+.koleksi{
+    background-color: black;
+}
+.koleksi img{
+    width: 23%;
+}
+.penutup{
+    background-color: aqua;
+    border: 1px dotted red;
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+    width: auto;
+}
+.penutup a{
+    display: list-item;
+}
