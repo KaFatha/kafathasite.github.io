@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum UTS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Daftarkan Alumni</legend>
+            <table>
+                <tr>
+                    <td><label for="search" class="a">Cari Nama Alumni</label></td>
+                    <td><input class="s" type="search" id="search" name="search" value="search"></td>
+                </tr>
+                <tr>
+                    <td><label for="pilihan">Program Studi:</label></td>
+                    <td><select name="ps" id="ps">
+                            <option value="SI">Sistem Informasi</option>
+                            <option value="TI">Teknik Informatika</option>
+                            <option value="BD">Bisnis Digital</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label for="masuk">Tahun Masuk:</label></td>
+                    <td><input class="c" type="text" id="tm" name="tm"></td>
+                </tr>
+                <tr>
+                    <td><label for="lulus">Tahun Lulus:</label></td>
+                    <td><input class="c" type="text" id="tl" name="tl"></td>
+                </tr>
+                <tr>
+                    <td><label for="linkedin">Alamat LinkedIn:</label></td>
+                    <td><input class="b" type="text" id="link" name="link"></td>
+                </tr>
+                <tr>
+                    <td><label for="pekerjaan">Pekerjaan:</label></td>
+                    <td><input class="b" type="text" id="kerja" name="kerja"></td>
+                </tr>
+                <tr>
+                    <td><label for="alamat">Alamat Kantor </label></td>
+                    <td><textarea name="alamat" id="alamat" cols="30" rows="3"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="pengurus">Pengurus Alumni</label></td>
+                    <td>
+                        <p><input class="d" type="radio" name="kepengurusan" value="yes">Ya
+                            <input class="d" type="radio" name="kepengurusan" value="no">Tidak
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button class="btn" type="submit">Simpan</button>
+                        <button class="btn" type="reset">Reset</button>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
