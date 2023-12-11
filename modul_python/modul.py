@@ -1,0 +1,28 @@
+import bangundatar
+import operasimtk
+
+bangundatar.KelilingBelahKetupat(5)
+bangundatar.KelilingJajarGenjang(9,8)
+bangundatar.KelilingLayangLayang(3,3)
+bangundatar.KelilingLingkaran(5)
+bangundatar.KelilingPersegi(4)
+bangundatar.KelilingPersegiPanjang(4,6)
+bangundatar.KelilingSegitiga(3,3,3)
+bangundatar.LuasBelahKetupat(6,6)
+bangundatar.LuasJajarGenjang(7,9)
+bangundatar.LuasLayangLayang(7,7)
+bangundatar.LuasLingkaran(7)
+bangundatar.LuasPersegi(8,8)
+bangundatar.LuasPersegiPanjang(9,8)
+bangundatar.LuasSegitiga(4,7)
+
+operasimtk.decrement(3,4)
+operasimtk.increment(4,3)
+operasimtk.modulus(5,6)
+operasimtk.OperasiHitungCampuran(1,2,3)
+operasimtk.pekalian(7,7)
+operasimtk.pembagian(4,2)
+operasimtk.pengurangan(7,5)
+operasimtk.penjumlahan(6,6)
+operasimtk.perpangkatan(7,2)
+operasimtk.TandaKurung(4,5,6)
