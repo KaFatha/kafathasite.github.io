@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghitung Kurs Rupiah</title>
+</head>
+
+<body>
+    <h2>Menghitung Kurs Rupiah</h2>
+    <br>
+    <div>
+        <label for="dolar">Masukkan Nilai Dolar</label>
+        <input type="number" id="dolar">
+        <button onclick="hitungRupiah()">Hitung</button>
+    </div>
+
+    <hr>
+    <p>Hasil Rupiahnya adalah: Rp.<span id="hasilRupiah">0</span></p>
+
+    <script>
+        function hitungRupiah() {
+            let nilai = document.getElementById("dolar").value
+
+            let hasil = 14.650 * nilai
+            let hasilRupiah = document.getElementById("hasilRupiah")
+            hasilRupiah.innerHTML = hasil
+        }
+    </script>
+
+</body>
+
+</html>

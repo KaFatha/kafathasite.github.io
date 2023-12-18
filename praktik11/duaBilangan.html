@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghitung Jumlah 2 Bilangan</title>
+</head>
+
+<body>
+    <h2>Menghitung Jumlah 2 bilangan</h2>
+    <br>
+    <div>
+        <input type="number" id="angka1">
+        <p><b>+</b></p>
+        <input type="number" id="angka2" onchange="hasilPenjumlahan()">
+        <p><b>=</b></p>
+        <span id="hasil">0</span>
+    </div>
+
+    <script>
+        function hasilPenjumlahan() {
+            let angka1 = document.getElementById("angka1").value
+            let angka2 = document.getElementById("angka2").value
+            let jumlah1 = parseInt(angka1)
+            let jumlah2 = parseInt(angka2)
+
+            let jumlah = jumlah1 + jumlah2
+
+            let hasil = document.getElementById("hasil")
+
+            hasil.innerHTML = jumlah
+        }
+    </script>
+
+</body>
+
+</html>
