@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Ganti Gambar</title>
+</head>
+
+<body>
+    <h2>Ganti Gambar</h2>
+
+    <label for="pilihGambar">Pilih Gambar:</label>
+    <select id="pilihGambar" onchange="tampilGambar()">
+        <option value="Bintang">Gambar Bintang</option>
+        <option value="Awan">Gambar Awan</option>
+        <option value="Daun">Gambar Daun</option>
+        <option value="Tembok">Gambar Tembok</option>
+    </select>
+    <br>
+    <img src="gambar/1.jpg" id="gambarPilih" alt="Kosong" width="700">
+
+    <script>
+        function tampilGambar() {
+            let nilaiTerpilih = document.getElementById("pilihGambar").value;
+            let gambarTerpilih = document.getElementById("gambarPilih").value;
+
+            //menampilkan gambar sesuai dengan pilihan menu dropdown dengan SwichCase
+            switch (nilaiTerpilih) {
+                case "Bintang":
+                    gambarPilih.src = "gambar/1.jpg";
+                    break;
+                case "Awan":
+                    gambarPilih.src = "gambar/2.jpg";
+                    break;
+
+                case "Daun":
+                    gambarPilih.src = "gambar/3.jpg";
+                    break;
+
+                case "Tembok":
+                    gambarPilih.src = "gambar/4.jpg";
+            }
+        }
+    </script>
+</body>
+
+</html>
